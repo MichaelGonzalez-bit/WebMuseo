@@ -19,8 +19,8 @@ public class Visitante extends Usuario{
         
     }
     
-    public Visitante(String id_usuario, String nombre, String apellido, String email, String contraseña) {
-        super(id_usuario, nombre, apellido, email, contraseña);
+    public Visitante(String id, String nombre, String apellido, String email, String contraseña) {
+        super(id, nombre, apellido, email, contraseña);
         visitantes=new ArrayList<>();
     }
 

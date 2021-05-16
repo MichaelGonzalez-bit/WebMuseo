@@ -107,7 +107,7 @@ public class AdminDAO {
     }
     
     public void delete(String id){
-        String sql="delete from persona where id="+id;
+        String sql="delete from administrador where id="+id;
         try {
             con=c.conectar();
             ps=con.prepareStatement(sql);
